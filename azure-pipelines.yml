@@ -75,7 +75,7 @@ stages:
     environment: dev
     variables
     - group: Release
-    stategy:
+    strategy:
       runOnce:
         deploy:
           steps:
